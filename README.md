@@ -1,19 +1,26 @@
 # YoutubeShellPlayer
 Play youtube in window with small shell with no border around it, can set opacity, suitable using in office hour
 
-Double click YoutubeShellPlayer.bat to start the Player
+How To Run
+----------------------------------------
+1. unzip it
 
-Then input the youtube url i.e. https://www.youtube.com/watch?v=XXxxXXxxXXxx
+2. Double click YoutubeShellPlayer.bat to start the Player
 
-Then wait sometime for downloading.
+3. Then input the youtube url i.e. https://www.youtube.com/watch?v=XXxxXXxxXXxx
 
-After that it will pop up a no boarder window.
+4. Then wait sometime for downloading.
 
-Here is the key and operation:
+5. After that it will pop up a no boarder window.
+
+key and operation:
+--------------------------------
 Scroll up/down: +- Opacity
 Mouse left:     Drag window
 Mouse Right:    Close window
 Space:          pause/play
 
+Delete Cache
+--------------------------------
 
 If you want to delete the cache you can run DeleteCache.bat by double click it
