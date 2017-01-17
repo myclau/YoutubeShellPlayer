@@ -15,10 +15,10 @@ How To Run
 
 key and operation:
 --------------------------------
-Scroll up/down: +- Opacity
-Mouse left:     Drag window
-Mouse Right:    Close window
-Space:          pause/play
+1. Scroll up/down: +- Opacity
+2. Mouse left:     Drag window
+3. Mouse Right:    Close window
+4. Space:          pause/play
 
 Delete Cache
 --------------------------------
