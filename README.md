@@ -8,10 +8,13 @@ Then input the youtube url i.e. https://www.youtube.com/watch?v=XXxxXXxxXXxx
 Then wait sometime for downloading.
 
 After that it will pop up a no boarder window.
-Key:              Operation:
-[Scroll up/down]: +- Opacity
-[Mouse left]:     Drag window
-[Mouse Right]:    Close window
-[Space]:          pause/play
+
+Here is the key and operation
+--------------------------------------------
+Scroll up/down: +- Opacity
+Mouse left:     Drag window
+Mouse Right:    Close window
+Space:          pause/play
+--------------------------------------------
 
 If you want to delete the cache you can run DeleteCache.bat by double click it
