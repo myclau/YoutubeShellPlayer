@@ -25,6 +25,11 @@ Delete Cache
 
 If you want to delete the cache you can run DeleteCache.bat by double click it
 
+PlayBack the Cache Video
+----------------------------------------
+
+If you want to PlayBack the Cache Video you can run PlayCacheVideo.bat by double click it
+
 Software Requirement
 -------------------------
 
