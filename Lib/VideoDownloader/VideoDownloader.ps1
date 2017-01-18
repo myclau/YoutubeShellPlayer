@@ -15,9 +15,7 @@ write-host "DownLoad Error"
 $wshell.Popup("DownLoad Error",0,"Exit 1")
 exit 1
 }
-$path = gci $DownLoadPath | sort LastWriteTime | select -last 1
+$path = gci $DownLoadPath | sort CreationTime  | select -last 1
 
 return $path.fullname
 }
-
-
