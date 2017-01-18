@@ -24,3 +24,15 @@ Delete Cache
 --------------------------------
 
 If you want to delete the cache you can run DeleteCache.bat by double click it
+
+Software Requirement
+-------------------------
+
+1. Windows XP with Service Pack 2 or higher
+2. .NET Framework 4.5 or higher (https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+3. Powershell 3.0 (https://www.microsoft.com/en-us/download/details.aspx?id=34595)
+
+External Library
+---------------------
+
+1. youtube-dl (https://github.com/rg3/youtube-dl/blob/master/README.md)
