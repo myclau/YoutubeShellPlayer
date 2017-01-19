@@ -43,8 +43,8 @@ $VideoPlayer.Source = $VideoSource;
 $VideoPlayer.Play()
 $PauseButton.Visibility = [System.Windows.Visibility]::Visible
 $PlayButton.Visibility = [System.Windows.Visibility]::Hidden
-$PauseButton.Opacity = 0.1
-$PlayButton.Opacity = 0.1
+$PauseButton.Opacity = 0
+$PlayButton.Opacity = 0
 $label.Opacity = 0
 
 $window.Topmost = $true
@@ -104,8 +104,8 @@ $PlayButton.Opacity = 1
 $label.Opacity = 1
 })
 $Window.Add_MouseLeave({
-$PauseButton.Opacity = 0.1
-$PlayButton.Opacity = 0.1
+$PauseButton.Opacity = 0
+$PlayButton.Opacity = 0
 $label.Opacity = 0
 })
 
