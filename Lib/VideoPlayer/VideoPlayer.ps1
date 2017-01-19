@@ -46,6 +46,10 @@ $PlayButton.Visibility = [System.Windows.Visibility]::Hidden
 $PauseButton.Opacity = 0.1
 $PlayButton.Opacity = 0.1
 $label.Opacity = 0
+
+$window.Topmost = $true
+
+
 $window.Add_MouseWheel({
 write-host $_
 write-host $_.Delta
