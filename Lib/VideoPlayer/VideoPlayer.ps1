@@ -17,7 +17,7 @@ Add-Type -AssemblyName System.ComponentModel
     <Grid Margin="0,0,0,0">
         
         <MediaElement Height="360" Width="640" Name="VideoPlayer" LoadedBehavior="Manual" UnloadedBehavior="Stop" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
-        <Label Content="[Scroll up/down] +- Opacity, [Mouse left] Drag window, [Mouse Right] Close window, [Space] pause/play" Name="label" HorizontalAlignment="right" Margin="5,5,5,5" VerticalAlignment="top"  FontSize="13" Foreground="white" />
+        <Label Content="[Scroll up/down] +- Opacity, [Mouse left] Drag window, [Mouse Right] Close window, [Space] pause/play" Name="label" HorizontalAlignment="right" Margin="5,5,5,5" VerticalAlignment="top"  FontSize="11" Foreground="white" />
         <Button Content="||" Name="PauseButton" Background="Transparent" Foreground="white" HorizontalAlignment="center" Margin="0,0,0,0" VerticalAlignment="center" FontSize="50" Height="80" Width="80" BorderThickness="0"  
     Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"/>
         <Button Content=">" Name="PlayButton" Background="Transparent"  Foreground="white" HorizontalAlignment="center" Margin="0,0,0,0" VerticalAlignment="center" FontSize="65" Height="80" Width="80" BorderThickness="0"  
