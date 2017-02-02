@@ -19,6 +19,8 @@ key and operation:
 2. Mouse left:     Drag window
 3. Mouse Right:    Close window
 4. Space:          pause/play
+5. Arrow left/right: +- time
+6. Arrow up/down: +- Volume
 
 Delete Cache
 --------------------------------
