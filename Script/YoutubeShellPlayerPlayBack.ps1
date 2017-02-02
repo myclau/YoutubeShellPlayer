@@ -23,6 +23,8 @@ if(!(Test-Path $DownLoadPath)){
 
 
 
+
+
 $videoLocation = Get-FileName $DownLoadPath
 if($videoLocation -eq ""){
 exit
