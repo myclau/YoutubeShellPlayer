@@ -1,6 +1,7 @@
 ﻿$wshell = New-Object -ComObject Wscript.Shell
 function VideoPlayer($VideoSource,$Option){
-if(!(Test-path $VideoSource)){
+if(!(Test-path "$VideoSource")){
+write-host "Debug:VideoSource=$VideoSource"
 write-host "Video Source not found"
 $wshell.Popup("Video Source not found",0,"Exit 1")
 exit 1

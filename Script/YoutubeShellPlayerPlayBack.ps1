@@ -30,6 +30,7 @@ if($videoLocation -eq ""){
 exit
 }
 if (Test-path $videoLocation){
+echo $videoLocation
 VideoPlayer "$videoLocation"
 } else {
 $wshell.Popup("Video not found",0,"Exit 1")

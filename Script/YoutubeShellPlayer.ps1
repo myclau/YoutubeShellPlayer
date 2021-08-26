@@ -88,7 +88,7 @@ for($i=0;$i -lt 5;$i++){
    $count+=6
 }
 Update-Window Label1 Content "DownLoading Video From YouTube"  
-$videoLocation = Download-YoutubeVideo "$YoutubeUrl" $DownLoadPath
+$videoLocation=$(Download-YoutubeVideo "$YoutubeUrl" $DownLoadPath)
 
 if ($lastExitCode -eq 1){
 Update-Window Window Close
