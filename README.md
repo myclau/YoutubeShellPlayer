@@ -3,7 +3,7 @@ Play youtube in window with small shell with no border around it, can set opacit
 
 How To Run
 ----------------------------------------
-1. unzip it
+1. download zip from github and unzip it
 
 2. Double click YoutubeShellPlayer.bat to start the Player
 
@@ -42,4 +42,4 @@ Software Requirement
 External Library
 ---------------------
 
-1. youtube-dl (https://github.com/rg3/youtube-dl/blob/master/README.md)
+1. youtube-dl (https://github.com/rg3/youtube-dl/blob/master/README.md) (support auto update downloader when need to download video from youtube [update @ 2021/08/26])
