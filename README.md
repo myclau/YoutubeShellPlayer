@@ -1,6 +1,26 @@
 # YoutubeShellPlayer
 Play youtube in window with small shell with no border around it, can set opacity, suitable using in office hour
 
+Pre-requisite
+-----------------------------
+1. you may need to have permission to execute powershell script
+2. Check if your machine can run custom powershell script
+```bash
+PS C:\Users\xxxx> Get-ExecutionPolicy
+Unrestricted
+```
+3. if not Unrestricted, open powershell and run as admin, then set it to Unrestricted
+```bash
+PS C:\WINDOWS\system32> Set-ExecutionPolicy Unrestricted
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
+PS C:\WINDOWS\system32>
+```
+
 How To Run
 ----------------------------------------
 1. download zip from github and unzip it
